@@ -1,0 +1,14 @@
+﻿@page "/login"
+<h3>Login</h3>
+<div class="form-group">
+    <label class="form-label">Email : </label>
+    <input type="text" class="form-control" @bind="Email" />
+</div>
+<div class="form-group">
+    <label class="form-label">Password : </label>
+    <input type="password" class="form-control" @bind="Password" />
+</div>
+<button class="btn btn-success" @onclick="SubmitLogin">Se connecter</button>
+@code {
+
+}
